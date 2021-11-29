@@ -21,7 +21,7 @@
         android:id="@+id/nav_order"
         android:name="com.github.hadicph.stenovnspizza.ui.order.OrderFragment"
         android:label="@string/menu_order"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_order" />
     <fragment
         android:id="@+id/aboutUs"
         android:name="com.github.hadicph.stenovnspizza.ui.aboutUs.AboutUsFragment"
