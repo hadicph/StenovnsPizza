@@ -12,19 +12,19 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.github.hadicph.stenovnspizza.databinding.FragmentSlideshowBinding;
+import com.github.hadicph.stenovnspizza.databinding.FragmentOrderBinding;
 
 public class OrderFragment extends Fragment {
 
     private OrderViewModel orderViewModel;
-    private FragmentSlideshowBinding binding;
+    private FragmentOrderBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         orderViewModel =
                 new ViewModelProvider(this).get(OrderViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentOrderBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textSlideshow;
