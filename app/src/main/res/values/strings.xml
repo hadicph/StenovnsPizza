@@ -14,4 +14,22 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_aboutus">About Us</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="frag_about_us_story">
+At team Horsens stenovns Pizza, we have great love and interest in giving our customers
+        a good dining experience, and to give you the best offers! Try e.g. month pizza
+        (Fresh mozzarella cheese, Chicken, Tirred tomatoes, pesto and Fresh spinach) otherwise we
+        have lots of offers for you on our Facebook website such as this week\'s offer etc. follow us for more! </string>
+    <string name="frag_about_us_title">Welcome to Horsens stone oven pizza \n Great love in Italian food / pizza!</string>
+    <string name="address">Address: Horsens Pizza,\n\t Sønderbrogade 47, St tv,\n\t 8700 Horsens</string>
+    <string name="phone">Phone: 4575780111</string>
+    <string name="email">Email: kontakt@horsenspizza.dk</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="frag_opening_hours">Opening Hours</string>
+    <string name="frag_about_us_hours">
+Monday:\t   16:00-21:30 \nTuesday:\t    16:00-21:30\nWednesday:\t	16:00-21:30\nThursday:\t	16:00-21:30\nFriday:\t	    15:00-21:30\nSaturday:\t	15:00-21:30\nSunday:\t	    15:00-21:30\n
+</string>
+    <string name="google_maps_key">AIzaSyDJWk52jM-E35aRRfqqfO9Ijpnf-f4kRTw</string>
+
 </resources>
