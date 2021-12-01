@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "575672233020",
+    "firebase_url": "https://stenovnspizza-f2999-default-rtdb.europe-west1.firebasedatabase.app/",
+    "project_id": "stenovnspizza-f2999",
+    "storage_bucket": "stenovnspizza-f2999.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575672233020:android:a3a7e116feab18a6822739",
+        "android_client_info": {
+          "package_name": "com.github.hadicph.stenovnspizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575672233020-4vfm8ul4j3ibq69rfac6efpvu98mq6l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKTmadC-qLEPNNmR7gnuoHRkD6FOeTj8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575672233020-4vfm8ul4j3ibq69rfac6efpvu98mq6l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
