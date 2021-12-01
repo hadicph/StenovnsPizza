@@ -4,19 +4,39 @@ public class Product {
     private int id;
     private String name;
     private String description;
-    private String image;
+    private int image;
     private double price;
     private int discount;
+    private String category;
 
     public Product() {
 
     }
 
-    public Product(int id, String name, String description, double price) {
+    public Product(int id, String name, String description, double price,String category) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
+        this.category = category;
+    }
+
+    public Product(int id, String name, String description, int image, double price, int discount, String category) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.image = image;
+        this.price = price;
+        this.discount = discount;
+        this.category = category;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public int getId() {
@@ -43,11 +63,11 @@ public class Product {
         this.description = description;
     }
 
-    public String getImage() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(int image) {
         this.image = image;
     }
 
