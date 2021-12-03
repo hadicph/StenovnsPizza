@@ -9,7 +9,14 @@
         android:id="@+id/nav_home"
         android:name="com.github.hadicph.stenovnspizza.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_order"
+            app:destination="@id/nav_order" />
+        <action
+            android:id="@+id/action_nav_home_to_aboutUs"
+            app:destination="@id/aboutUs" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
