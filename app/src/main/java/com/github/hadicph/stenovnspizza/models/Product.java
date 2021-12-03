@@ -9,26 +9,15 @@ public class Product {
     private int discount;
     private String category;
 
+
+    public Product(String name, int image) {
+        this.name=name;
+        this.image=image;
+
+    }
+
     public Product() {
 
-    }
-
-    public Product(int id, String name, String description, double price,String category) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.price = price;
-        this.category = category;
-    }
-
-    public Product(int id, String name, String description, int image, double price, int discount, String category) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.image = image;
-        this.price = price;
-        this.discount = discount;
-        this.category = category;
     }
 
     public String getCategory() {

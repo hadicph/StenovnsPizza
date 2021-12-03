@@ -11,13 +11,21 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.github.hadicph.stenovnspizza.R;
 import com.github.hadicph.stenovnspizza.databinding.FragmentOrderBinding;
+import com.github.hadicph.stenovnspizza.models.Product;
 
-public class OrderFragment extends Fragment {
+import java.util.ArrayList;
+import java.util.List;
+
+public class OrderFragment extends Fragment{
 
     private OrderViewModel orderViewModel;
     private FragmentOrderBinding binding;
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -33,6 +41,7 @@ public class OrderFragment extends Fragment {
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
             }
+
         });
         return root;
     }
@@ -42,4 +51,5 @@ public class OrderFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
+
 }
